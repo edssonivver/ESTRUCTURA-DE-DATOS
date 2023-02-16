@@ -1,0 +1,17 @@
+EJER 1
+
+// sumar 3 numeros que ya se encuentren quemados en las variables
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int a=1;
+        int b=9;
+        int c=4;
+        int d = a +b +c; 
+        Console.WriteLine (d);
+    }
+}
