@@ -1,5 +1,5 @@
 <p align="center">
-    <img img src="https://raw.githubusercontent.com/avinash-218/avinash-218/output/github-contribution-grid-snake.svg" width="480">
+    <img img src="https://raw.githubusercontent.com/avinash-218/avinash-218/output/github-contribution-grid-snake.svg" width="950">
 	
 </p>
 
