@@ -1,3 +1,8 @@
+<p align="center">
+    <img img src="https://raw.githubusercontent.com/avinash-218/avinash-218/output/github-contribution-grid-snake.svg" width="480">
+	
+</p>
+
 <h1 align="center"> 🤖 💻​ ESTRUCTURA DE DATOS 💻​ 🤖​</h1>
 <h3 align="center">Foros || Trabajos || Proyectos || Laboratorios </h3>
 
