@@ -5,7 +5,7 @@
 
 **Repositorio Completo del Hito 1**
 
-<A href="https://github.com/edssonivver/ESTRUCTURA-DE-DATOS/tree/main/HITO-1"> **(☞ﾟヮﾟ)☞ REPOSITORIOS DEL HITO 1**  </A>
+<A href="https://github.com/edssonivver/ESTRUCTURA-DE-DATOS/tree/main/HITO-1"> **(☞•́_•́)☞ REPOSITORIOS DEL HITO 1**  </A>
 
 
 
