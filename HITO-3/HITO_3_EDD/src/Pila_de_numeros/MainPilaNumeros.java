@@ -20,7 +20,11 @@ public class MainPilaNumeros {
 
         MuestraSimilitud(pila1,5); */
         
-        
+        pila1.mostrar();
+
+        cambioPosiciones(pila1);
+
+        pila1.mostrar();
     }
 
 
