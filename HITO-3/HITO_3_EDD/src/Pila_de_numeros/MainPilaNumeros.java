@@ -10,16 +10,21 @@ public class MainPilaNumeros {
         pila1.adicionar(23);
         pila1.adicionar(5);
 
-        pila1.mostrar();
+        
+        
+        /*pila1.mostrar();
 
         muestraNumeroMaximo(pila1);
 
         pila1.mostrar();
 
-        MuestraSimilitud(pila1,5);
+        MuestraSimilitud(pila1,5); */
+        
+        
     }
 
 
+    /*
     public static void muestraNumeroMaximo(Pila_Numeros pila) {
         Pila_Numeros aux = new Pila_Numeros();
         int num = 0;
@@ -61,7 +66,117 @@ public class MainPilaNumeros {
         pila.vaciar(aux);
         System.out.printf("\nEl numero "+ Buscanumero + " Se repite "+ contador +" veces");
     }
+    */
 
     // TAREA
     // intercambiar el valor maximo con el valor minimo
+
+public static int muestraNumMax (Pila_Numeros pila){
+
+        Pila_Numeros aux = new Pila_Numeros();
+
+        int num = 0;
+
+        int max = 0;
+
+        while (!pila.esVacio()){
+
+            num = pila.eliminar();
+
+            if(num > max){
+
+                max = num;
+
+            }
+
+            aux.adicionar(num);
+
+        }
+
+        pila.vaciar(aux);
+
+        System.out.println("Mayor = "+max);
+
+        return max;
+
+    }
+
+    public static int muestraNumMin (Pila_Numeros pila){
+
+        Pila_Numeros aux = new Pila_Numeros();
+
+        int num = 0,numaux=0;
+
+        int min=0;
+
+        while (!pila.esVacio()){
+
+            num = pila.eliminar();
+
+            if(num < numaux  ){
+
+                min = num;
+
+            }
+
+            numaux = num;
+
+            aux.adicionar(num);
+
+        }
+
+        pila.vaciar(aux);
+
+        System.out.println("Menor = "+min);
+
+        return min;
+
+    }
+
+    public static void cambioPosiciones(Pila_Numeros pila){
+
+        Pila_Numeros aux = new Pila_Numeros();
+
+        int max = muestraNumMax(pila);
+
+        int min = muestraNumMin(pila);
+
+        int num =0;
+
+        while (!pila.esVacio()){
+
+            num = pila.eliminar();
+
+            if(max ==num){
+
+                aux.adicionar(min);
+
+            }
+
+            else{
+
+                if(min == num){
+
+                    aux.adicionar(max);
+
+                }
+
+                else{
+
+                    aux.adicionar(num);
+
+                }
+
+            }
+
+        }
+
+        pila.vaciar(aux);
+
+    }
+
+
+
+
+
 }
