@@ -41,6 +41,74 @@ public class Main_Colas_Num {
     {
 
     }*/
+    
+       public static void BorraRepetidos(Numeros numeros){
+
+        int valorExtraido= 0;
+
+        int numelementos = numeros.nroElementos();
+
+        int i;
+
+        for ( i=1; i<= numelementos;i++){
+
+            valorExtraido = numeros.eliminar();
+
+
+
+            if(!verificarRepetido(valorExtraido, numeros)){
+
+                // si el valor eliminado de la cola aun existe entonces eso valor se repite;
+
+                numeros.insertar(valorExtraido);
+
+            }
+
+        }
+
+        numeros.mostrar();
+
+    }
+
+    public static boolean verificarRepetido(int numeroBuscar, Numeros numeros)
+
+    {     int valorExtraidodelacola;
+
+        int nroElemento= numeros.nroElementos();
+
+        int repetidos=0;
+
+        for( int i=1; i<= nroElemento; i++){
+
+            valorExtraidodelacola =numeros.eliminar();
+
+            if(numeroBuscar == valorExtraidodelacola){
+
+                repetidos=repetidos+1;
+
+            
+
+            else {
+
+                numeros.insertar(valorExtraidodelacola);
+
+            }
+
+        }
+
+        if (repetidos>0){
+
+            return true;
+
+        }else {
+
+            return false;
+
+        }
+
+    }
+    
+    
 }
 
 
