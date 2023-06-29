@@ -34,12 +34,12 @@
  **<A href="https://github.com/edssonivver/ESTRUCTURA-DE-DATOS/blob/main/HITO-1/EJERCICIOS-DE-DIAGNOSTICO-CAPTURAS.pdf"> Capturas Dodigo Diagnostico  ☞ Capturas   (Archivo PDF) 📚​</A>**
 
 ****
-***
+****
 
 ## (っ•́｡•́)っ📚  HITO 2 📚
 
 **Repositorio Completo del Hito 2**
-<P>**<A href="  ">ヽ(´▽`)/  REPOSITORIO DEL HITO 2 </A>**</P>
+**<P><A href="  ">ヽ(´▽`)/  REPOSITORIO DEL HITO 2 </A></P>**
 
 ## 🚀 APARTADOS DEL REPOSITORIO DEL HITO 2
 
