@@ -47,7 +47,7 @@
 
 **👾 MANEJO DE PILAS Y CLASES 👾**
 ****
-** 👉 LABORATORIOS 👇**
+👉 **LABORATORIOS**👇
 
 **<A href="https://github.com/edssonivver/ESTRUCTURA-DE-DATOS/tree/main/HITO-2/LABORATORIOS/LAB-1"> Primer Laboratorio  ☞ Codigo de Laboratorio 1 (Archivos Formato ".java") 📄</A>**
 
